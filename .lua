@@ -1,12 +1,9 @@
-`--[[
- WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "T1 hub / Первый русский скрипт!!", HidePremium = false, IntroText = "T1 hub" , SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
- Name = "Предупреждение",
- Content = "Все скрипты взяты из Legit mods offical discord! Даня не убивай меня :(",
+ Name = "ОЛД",
+ Content = "Это старая версия T1 hub!",
  Image = "rbxassetid://4483345998",
  Time = 5
 })
